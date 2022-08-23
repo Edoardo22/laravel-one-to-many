@@ -24,3 +24,7 @@ Route::post("/barbers", "barberController@store")->name("barbers.store");
 Route::get("/barbers/{id}/edit", "barberController@edit")->name("barbers.edit");
 Route::patch("/barbers/{id}", "barberController@update")->name("barbers.update");
 Route::delete("/barbers/{id}", "barberController@destroy")->name("barbers.destroy");
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
