@@ -2,7 +2,7 @@
 @php
 $page_title = 'Shop';   
 @endphp
-@extends("layouts.app")
+@extends("layouts.test")
 @section("page_content")
 <h1>crea prodotto</h1>
 <form action="{{route('barbers.store')}}" method="post">

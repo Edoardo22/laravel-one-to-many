@@ -1,7 +1,7 @@
 @php
  $page_title = 'Shop';   
 @endphp
-@extends("layouts.app")
+@extends("layouts.test")
 @section("page_content")
 <h1>barber shop</h1>
 <ul>

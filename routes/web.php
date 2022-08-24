@@ -28,3 +28,4 @@ Route::delete("/barbers/{id}", "barberController@destroy")->name("barbers.destro
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/admin', 'Admin\HomeController@index')->name('admin.home');
