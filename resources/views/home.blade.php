@@ -1,4 +1,4 @@
-@extends('layouts.test')
+@extends('layouts.app ')
 @php
   $page_title = 'Home';  
 @endphp
